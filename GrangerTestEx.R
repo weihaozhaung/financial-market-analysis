@@ -8,7 +8,7 @@ library(foreach)
 library(ggplot2)
 library(data.table)
 #---------------------------------#
-ind<-fread("Ind_db_ratio.txt")
+ind<-fread("FILE.txt")
 ind<-ind[,-c(10,12)]
 colnames(ind)<-c("code","name","ind","ipodate","ym","Qrt","Mth","Dbr","Ir","Tr")
 PId<-fread("PIboard.txt")
