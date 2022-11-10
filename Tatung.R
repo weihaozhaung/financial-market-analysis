@@ -6,7 +6,7 @@ library(tibbletime)
 library(foreach)
 library(ggplot2)
 library(data.table)
-setwd("C:/Users/USER/Desktop/finance management/財策")
+setwd("WORKDIR")
 ###################
 suspend.Add<-fread("addition.txt",data.table = F)
 contdb<-fread("contdb.txt",data.table = F)
